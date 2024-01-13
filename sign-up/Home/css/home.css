@@ -1,0 +1,41 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--Grey);
+}
+:root{
+    
+--Tomato: hsl(4, 100%, 67%);
+--Grey: hsl(234, 29%, 20%);
+--Charcoal: hsl(235, 18%, 26%);
+--lightgrey: hsl(231, 7%, 60%);
+}
+.main-section{
+    background-color: var(--Grey);
+}
+p , label{
+    font-weight: 450;
+    font-size: 16px;
+}
+p{
+    font-size: small;
+}
+h1{
+    font-weight: 600;
+}
+.subscribe-btn {
+    color: #fff;
+    background: var(--Grey);
+    transition: all 1s ; 
+    font-weight: 450;
+}
+
+.subscribe-btn:hover {
+    background: linear-gradient(to right, #ff7653, #e47725, rgb(252, 66, 33));
+}
+.container{
+    box-shadow: 0 0 25px var(--lightgrey);
+}
+

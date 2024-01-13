@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+          <!-- Font Awesome-->
+          <link rel="stylesheet" href="css/all.min.css"> 
+          <!-- Bootstrap-->
+          <link rel="stylesheet" href='css/bootstrap.min.css'>
+          <!-- Google fonts -->
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+          <!-- main style sheet-->
+          <link rel="stylesheet" href="css/home.css">
+        <title>Sign-up Form</title>
+        <link rel="icon" href="../images/favicon-32x32.png">
+</head>
+<body>
+  <div class="main-section vh-100 d-flex justify-content-center align-items-center">
+    <div class="container bg-light py-3 w-50 rounded-3">
+    <div class="row mx-auto">
+      <div class="col-md-6 mt-4 ">
+        <h1 class="py-2 pt-3">Stay Updated!</h1>
+        <p class="fw-bold">Join 60,000+ product managers receiving monthly updates on:</p>
+        <p ><img src="../images/icon-list.svg" alt=""> Product discovery and building what matters</p>
+        <p ><img src="../images/icon-list.svg" alt=""> Measuring to ensure updates are a success</p>
+        <p ><img src="../images/icon-list.svg" alt=""> And much more!</p>
+
+
+        <form>
+          <div class="d-flex justify-content-between">  
+           <label for="userEmail" class="mb-1">Email address</label>
+           <p id='alertMessage' class="text-danger d-none">Valid Email Required</p>
+          </div>
+        <input type="email" placeholder="email@company.com" id="userEmailInput" class="form-control w-100  mb-3 ">
+        </form>
+
+
+
+        <button id="subscribe-btn" class="subscribe-btn w-100 border-0 rounded-2 p-2 mt-2">Subscribe to monthly newsletter</button>
+  
+      </div>
+
+      <div class="col-md-6  py-3 ">
+        <img src="../images/illustration-sign-up-desktop.svg" alt="" class="w-100 ">
+      </div>
+      
+    </div>
+      
+    </div>
+
+  </div>
+  
+
+
+  <script src="home.js"></script>
+</body>
+</html>

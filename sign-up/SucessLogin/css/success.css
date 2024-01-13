@@ -1,0 +1,29 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--Grey);
+}
+:root{
+    
+--Tomato: hsl(4, 100%, 67%);
+--Grey: hsl(234, 29%, 20%);
+--Charcoal: hsl(235, 18%, 26%);
+--lightgrey: hsl(231, 7%, 60%);
+}
+.success-section{
+    background-color: var(--Grey);
+}
+button{
+    font-weight: 400;
+    color: #fff;
+    background: var(--Grey);
+    transition: all 1s ease-in;
+}
+button:hover{
+  background: linear-gradient(to right, rgb(255, 90, 49),rgb(255, 118, 39),rgb(255, 19, 19));
+}
+.container{
+    box-shadow: 0 0 20px #f5eaea;
+}
